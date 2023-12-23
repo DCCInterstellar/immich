@@ -6,7 +6,7 @@ part of 'current_asset.provider.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$currentAssetHash() => r'15369c6103bdd1b092acee56861cd5011179979c';
+String _$currentAssetHash() => r'018d9f936991c48f06c11bf7e72130bba25806e2';
 
 /// See also [CurrentAsset].
 @ProviderFor(CurrentAsset)
