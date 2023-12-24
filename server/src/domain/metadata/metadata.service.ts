@@ -111,7 +111,14 @@ export class MetadataService {
     @Inject(IPersonRepository) personRepository: IPersonRepository,
   ) {
     this.configCore = SystemConfigCore.create(configRepository);
-    this.storageCore = StorageCore.create(assetRepository, moveRepository, personRepository, storageRepository);
+    this.storageCore = StorageCore.create(
+      assetRepository,
+      moveRepository,
+      personRepository,
+      cryptoRepository,
+      configRepository,
+      storageRepository,
+    );
   }
 
   async init() {
